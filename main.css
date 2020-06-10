@@ -1,0 +1,24 @@
+img {
+    height: auto;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: 'assets/freedom.jpg'no-repeat center center fixed;
+    background-size: cover;
+    font-weight: bold;
+    font-family: Cambria;
+}
+
+h1 {
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, .7);
+    text-align: center;
+    position: relative;
+    top: -72.5px;
+    padding: 5px;
+}
