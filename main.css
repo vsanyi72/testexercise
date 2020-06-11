@@ -4,21 +4,28 @@ img {
 }
 
 body {
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: 'assets/freedom.jpg'no-repeat center center fixed;
+    width: 100vw;
+    background: 'assets/freedom.jpg'no-repeat center;
     background-size: cover;
-    font-weight: bold;
-    font-family: Cambria;
 }
 
 h1 {
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, .7);
     text-align: center;
     position: relative;
-    top: -72.5px;
+    top: -80vh;
+    padding: 5px;
+    font-size: 2.2em;
+    font-family: "Courier New", Helvetica, sans-serif;
+}
+p {
+    text-align: center;
+    position: relative;
+    top: -78vh;
+    font-size: 1em;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 5px;
 }
